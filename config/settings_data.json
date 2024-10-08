@@ -31,7 +31,7 @@
     "buttons_shadow_blur": 5,
     "variant_pills_border_thickness": 1,
     "variant_pills_border_opacity": 100,
-    "variant_pills_radius": 0,
+    "variant_pills_radius": 8,
     "variant_pills_shadow_opacity": 0,
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
@@ -153,7 +153,7 @@
           "text": "#ffffff",
           "button": "#c4ff67",
           "button_label": "#28352c",
-          "secondary_button_label": "#855832",
+          "secondary_button_label": "#c4ff67",
           "shadow": "#11151c"
         }
       },

@@ -65,7 +65,7 @@
             "image": "shopify://shop_images/couple-and-plantilla.png",
             "caption": "",
             "heading": "<strong>¿Por qué Increase Insole™ es Perfecto para Ti?</strong>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<ul><li><strong>Aumento de Estatura Instantáneo</strong></li></ul>",
             "button_label": "Quiero comprar Increase Insole™",
             "button_link": ""
           }
@@ -135,7 +135,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "price": {
@@ -183,7 +183,7 @@
         "product": "height-increase-orthopedic-insoles",
         "color_scheme": "scheme-1",
         "secondary_background": false,
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
