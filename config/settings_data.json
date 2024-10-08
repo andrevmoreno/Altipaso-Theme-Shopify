@@ -148,7 +148,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#dfdfd8",
+          "background": "#63755f",
           "background_gradient": "linear-gradient(89deg, rgba(40, 53, 44, 1) 7%, rgba(99, 117, 95, 1) 94%)",
           "text": "#ffffff",
           "button": "#c4ff67",
