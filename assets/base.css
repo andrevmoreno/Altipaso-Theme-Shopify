@@ -2802,6 +2802,7 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+  background: rgba(100, 118, 96, 0.03);
 }
 
 .header--top-center .header__inline-menu,
