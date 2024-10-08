@@ -12,7 +12,7 @@
     "logo": "shopify://shop_images/Altipaso-w.png",
     "logo_width": 160,
     "favicon": "shopify://shop_images/Altipaso-favicon-700x700.png",
-    "type_header_font": "platypi_n5",
+    "type_header_font": "domine_n4",
     "heading_scale": 115,
     "type_body_font": "sans-serif",
     "body_scale": 100,
@@ -24,7 +24,7 @@
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 8,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -149,19 +149,19 @@
       "scheme-1": {
         "settings": {
           "background": "#dfdfd8",
-          "background_gradient": "",
-          "text": "#11151c",
-          "button": "#855832",
-          "button_label": "#dfdfd8",
+          "background_gradient": "linear-gradient(89deg, rgba(40, 53, 44, 1) 7%, rgba(99, 117, 95, 1) 94%)",
+          "text": "#ffffff",
+          "button": "#c4ff67",
+          "button_label": "#28352c",
           "secondary_button_label": "#855832",
           "shadow": "#11151c"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#f5f5f5",
           "background_gradient": "",
-          "text": "#11151c",
+          "text": "#28352c",
           "button": "#11151c",
           "button_label": "#ffffff",
           "secondary_button_label": "#11151c",
