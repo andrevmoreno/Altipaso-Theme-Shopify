@@ -232,6 +232,7 @@
           class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}"
           rel="nofollow"
         >
+          {% comment %}
           {%- if section.settings.enable_customer_avatar -%}
             <account-icon>
               {%- if customer and customer.has_avatar? -%}
@@ -254,7 +255,7 @@
           </span>
         </a>
       {%- endif -%}
-
+    {% endcomment %}
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when '@app' -%}
