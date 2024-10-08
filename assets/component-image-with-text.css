@@ -385,16 +385,15 @@
 .image-with-text__content :last-child:is(.image-with-text__heading),
 .image-with-text__text--caption {
   margin-bottom: 0;
+  display: flex !important;
 }
 
 .image-with-text__content .button + .image-with-text__text {
   margin-top: 2rem;
-  display: flex !important;
 }
 
 .image-with-text__content .image-with-text__text + .button {
   margin-top: 3rem;
-  display: flex !important;
 }
 
 .image-with-text__heading {
