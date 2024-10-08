@@ -1220,7 +1220,8 @@ button.shopify-payment-button__button--unbranded {
 .button,
 .shopify-challenge__button,
 .customer button {
-  display: inline-flex;
+  /*display: inline-flex;*/
+  display: flex !important;
   justify-content: center;
   align-items: center;
   border: 0;
@@ -1241,6 +1242,7 @@ button.shopify-payment-button__button--unbranded {
 .customer button:before,
 .shopify-payment-button__button--unbranded:before {
   content: '';
+  display: flex !important;
   position: absolute;
   top: 0;
   right: 0;
