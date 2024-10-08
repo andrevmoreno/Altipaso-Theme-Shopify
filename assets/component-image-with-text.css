@@ -370,6 +370,7 @@
 
 .image-with-text__content > * + * {
   margin-top: 2rem;
+  display: flex !important;
 }
 
 .image-with-text__content > .image-with-text__text:empty ~ a {
