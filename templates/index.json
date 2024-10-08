@@ -30,7 +30,7 @@
           "type": "button",
           "settings": {
             "button_label": "¡Compra  ahora!",
-            "button_link": "",
+            "button_link": "shopify://products/height-increase-orthopedic-insoles",
             "button_style_secondary": false
           }
         }
@@ -41,6 +41,7 @@
         "button_8jfBhV"
       ],
       "settings": {
+        "image": "shopify://shop_images/woman-guy.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -129,10 +130,10 @@
         "share"
       ],
       "settings": {
-        "product": "",
+        "product": "height-increase-orthopedic-insoles",
         "color_scheme": "scheme-1",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
@@ -146,13 +147,14 @@
     "image-banner": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify://shop_images/cover.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "image_height": "large",
+        "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-1",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
