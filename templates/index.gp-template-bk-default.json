@@ -8,72 +8,16 @@
 * ------------------------------------------------------------
 */
 {
+  "order": [
+    "rich-text",
+    "featured-product",
+    "image-banner",
+    "multirow_phYbkE",
+    "rich-text-1",
+    "multicolumn"
+  ],
   "sections": {
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Handcrafted products",
-            "heading_size": "hxl"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 60
-      }
-    },
     "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Enter a description of your featured product. Make sure to mention what makes it special, and what sets it apart from the competition.",
-            "text_style": "subtitle"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
       "block_order": [
         "title",
         "price",
@@ -82,181 +26,237 @@
         "buy_buttons",
         "share"
       ],
+      "blocks": {
+        "buy_buttons": {
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          },
+          "type": "buy_buttons"
+        },
+        "price": {
+          "settings": {
+          },
+          "type": "price"
+        },
+        "share": {
+          "settings": {
+            "share_label": "Share"
+          },
+          "type": "share"
+        },
+        "text": {
+          "settings": {
+            "text": "Enter a description of your featured product. Make sure to mention what makes it special, and what sets it apart from the competition.",
+            "text_style": "subtitle"
+          },
+          "type": "text"
+        },
+        "title": {
+          "settings": {
+            "heading_size": "h2"
+          },
+          "type": "title"
+        },
+        "variant_picker": {
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          },
+          "type": "variant_picker"
+        }
+      },
       "settings": {
-        "product": "",
         "color_scheme": "scheme-1",
-        "secondary_background": false,
-        "media_size": "medium",
         "constrain_to_viewport": true,
+        "enable_video_looping": true,
+        "hide_variants": false,
+        "image_zoom": "lightbox",
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": true,
+        "media_size": "medium",
+        "padding_bottom": 48,
         "padding_top": 32,
-        "padding_bottom": 48
-      }
+        "product": "",
+        "secondary_background": false
+      },
+      "type": "featured-product"
     },
     "image-banner": {
-      "type": "image-banner",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
         "color_scheme": "scheme-1",
+        "desktop_content_alignment": "center",
+        "desktop_content_position": "middle-center",
         "image_behavior": "none",
+        "image_height": "small",
+        "image_overlay_opacity": 0,
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "multirow_phYbkE": {
-      "type": "multirow",
-      "blocks": {
-        "row_Wf9DmQ": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_aTPjBN": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_aMhFNV": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
+        "show_text_below": true,
+        "show_text_box": true,
+        "stack_images_on_mobile": true
       },
-      "block_order": [
-        "row_Wf9DmQ",
-        "row_aTPjBN",
-        "row_aMhFNV"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THE REVIEWS<\/p>"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Testimonials",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 20
-      }
+      "type": "image-banner"
     },
     "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column": {
-          "type": "column",
-          "settings": {
-            "title": "So soft",
-            "text": "<p>“I really love how soft the leather is. It feels and smells like quality.” – John S.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Wicked smart",
-            "text": "<p>\"The bag is great. The way it adapts is so clever. I can't live without it.” – Jane K.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Elegant",
-            "text": "<p>“Premium quality, as always. I adore the elegant yet simplistic design.” – Anne L.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
       "block_order": [
         "column",
         "column-1",
         "column-2"
       ],
+      "blocks": {
+        "column": {
+          "settings": {
+            "link": "",
+            "link_label": "",
+            "text": "<p>“I really love how soft the leather is. It feels and smells like quality.” – John S.</p>",
+            "title": "So soft"
+          },
+          "type": "column"
+        },
+        "column-1": {
+          "settings": {
+            "link": "",
+            "link_label": "",
+            "text": "<p>\"The bag is great. The way it adapts is so clever. I can't live without it.” – Jane K.</p>",
+            "title": "Wicked smart"
+          },
+          "type": "column"
+        },
+        "column-2": {
+          "settings": {
+            "link": "",
+            "link_label": "",
+            "text": "<p>“Premium quality, as always. I adore the elegant yet simplistic design.” – Anne L.</p>",
+            "title": "Elegant"
+          },
+          "type": "column"
+        }
+      },
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-3",
+        "column_alignment": "left",
+        "columns_desktop": 3,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "image_width": "full",
+        "padding_bottom": 36,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
+        "swipe_on_mobile": false,
+        "title": ""
+      },
+      "type": "multicolumn"
+    },
+    "multirow_phYbkE": {
+      "block_order": [
+        "row_Wf9DmQ",
+        "row_aTPjBN",
+        "row_aMhFNV"
+      ],
+      "blocks": {
+        "row_Wf9DmQ": {
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          },
+          "type": "row"
+        },
+        "row_aMhFNV": {
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          },
+          "type": "row"
+        },
+        "row_aTPjBN": {
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          },
+          "type": "row"
+        }
+      },
+      "settings": {
+        "button_style": "secondary",
+        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "image_height": "adapt",
+        "image_layout": "alternate-left",
+        "mobile_content_alignment": "left",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "row_color_scheme": "",
+        "section_color_scheme": "",
+        "text_style": "body"
+      },
+      "type": "multirow"
+    },
+    "rich-text": {
+      "block_order": [
+        "heading"
+      ],
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "Handcrafted products",
+            "heading_size": "hxl"
+          },
+          "type": "heading"
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_alignment": "center",
+        "desktop_content_position": "center",
+        "full_width": false,
+        "padding_bottom": 60,
+        "padding_top": 40
+      },
+      "type": "rich-text"
+    },
+    "rich-text-1": {
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "Testimonials",
+            "heading_size": "h0"
+          },
+          "type": "heading"
+        },
+        "text": {
+          "settings": {
+            "text": "<p>THE REVIEWS</p>"
+          },
+          "type": "text"
+        }
+      },
+      "settings": {
+        "color_scheme": "scheme-3",
+        "content_alignment": "center",
+        "desktop_content_position": "center",
+        "full_width": true,
+        "padding_bottom": 20,
+        "padding_top": 40
+      },
+      "type": "rich-text"
     }
-  },
-  "order": [
-    "rich-text",
-    "featured-product",
-    "image-banner",
-    "multirow_phYbkE",
-    "rich-text-1",
-    "multicolumn"
-  ]
+  }
 }
