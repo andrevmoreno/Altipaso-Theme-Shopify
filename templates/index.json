@@ -15,7 +15,7 @@
         "heading_T9ndcR": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Di ADIÓS a la baja estatura, con Increase Insole™ añade la ALTURA y CONFIANZA que mereces</strong>",
+            "heading": "<strong>Di ADIÓS a la baja estatura, con Altipaso™ añade la ALTURA y CONFIANZA que mereces</strong>",
             "heading_size": "h1"
           }
         },
@@ -33,12 +33,21 @@
             "button_link": "shopify://collections/frontpage",
             "button_style_secondary": false
           }
+        },
+        "caption_tQanLj": {
+          "type": "caption",
+          "settings": {
+            "caption": "+ 3,000 Compradores Felices",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading_T9ndcR",
         "text_qwbi6E",
-        "button_8jfBhV"
+        "button_8jfBhV",
+        "caption_tQanLj"
       ],
       "settings": {
         "image": "shopify://shop_images/woman-guy.png",
