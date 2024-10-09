@@ -160,7 +160,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Handcrafted products",
+            "heading": "<strong>INCREASE INSOLES™ </strong>",
             "heading_size": "hxl"
           }
         }
@@ -189,7 +189,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Enter a description of your featured product. Make sure to mention what makes it special, and what sets it apart from the competition.",
+            "text": "Aumenta tu estatura hasta 3 pulgadas y camina con confianza y comodidad todo el día",
             "text_style": "subtitle"
           }
         },
@@ -200,6 +200,12 @@
             "swatch_shape": "circle"
           }
         },
+        "kaching_bundles_app_block_TXUnVy": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -207,10 +213,21 @@
             "show_gift_card_recipient": true
           }
         },
-        "share": {
-          "type": "share",
+        "rating_tgh6LW": {
+          "type": "rating",
           "settings": {
-            "share_label": "Share"
+          }
+        },
+        "icon_with_text_dAXKUq": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "star",
+            "heading_1": "Hasta 3 Pulgadas de Altura al Instante",
+            "icon_2": "ruler",
+            "heading_2": "",
+            "icon_3": "shoe",
+            "heading_3": "Soporte Ortopédico"
           }
         }
       },
@@ -218,8 +235,10 @@
         "title",
         "text",
         "variant_picker",
+        "kaching_bundles_app_block_TXUnVy",
         "buy_buttons",
-        "share"
+        "rating_tgh6LW",
+        "icon_with_text_dAXKUq"
       ],
       "settings": {
         "product": "height-increase-orthopedic-insoles",
@@ -272,7 +291,8 @@
         "column": {
           "type": "column",
           "settings": {
-            "title": "So soft",
+            "image": "shopify://shop_images/icon-ansys_11133d60-dba8-4c6d-b47e-82ae73587776.svg",
+            "title": "",
             "text": "<p>“I really love how soft the leather is. It feels and smells like quality.” – John S.</p>",
             "link_label": "",
             "link": ""
@@ -281,7 +301,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Wicked smart",
+            "image": "shopify://shop_images/icon-cvs_health.svg",
+            "title": "",
             "text": "<p>\"The bag is great. The way it adapts is so clever. I can't live without it.” – Jane K.</p>",
             "link_label": "",
             "link": ""
@@ -290,7 +311,8 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "Elegant",
+            "image": "shopify://shop_images/icon-chegg.svg",
+            "title": "",
             "text": "<p>“Premium quality, as always. I adore the elegant yet simplistic design.” – Anne L.</p>",
             "link_label": "",
             "link": ""
@@ -308,7 +330,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
