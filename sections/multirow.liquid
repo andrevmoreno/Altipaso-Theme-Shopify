@@ -88,17 +88,6 @@
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
-
-              <div>
-                <img src="{{ '6-en-1.png' | asset_url }}" alt="6" width="100%" height="auto" />
-              </div>
-
-              <div class="multirow__text-item">
-                <div class="multirow__content">
-                    <p>Gana hasta 3 pulgadas (7.5 cm) de altura de manera discreta, mejorando tu presencia y confianza al instante. Diseñadas para integrarse perfectamente en cualquier tipo de calzado</p>
-                    <img src="{{ block.settings.image | image_url: 'medium' }}" alt="block image" width="100%" height="auto"/>
-                </div>
-              </div>
               
               {%- if block.settings.button_label != blank -%}
                 <a
