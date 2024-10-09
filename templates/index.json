@@ -189,7 +189,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Enter a description of your featured product. Make sure to mention what makes it special, and what sets it apart from the competition.",
+            "text": "Aumenta tu estatura hasta 3 pulgadas y camina con confianza y comodidad todo el día",
             "text_style": "subtitle"
           }
         },
@@ -207,10 +207,21 @@
             "show_gift_card_recipient": true
           }
         },
-        "share": {
-          "type": "share",
+        "rating_tgh6LW": {
+          "type": "rating",
           "settings": {
-            "share_label": "Share"
+          }
+        },
+        "icon_with_text_dAXKUq": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "star",
+            "heading_1": "Hasta 3 Pulgadas de Altura al Instante",
+            "icon_2": "ruler",
+            "heading_2": "",
+            "icon_3": "shoe",
+            "heading_3": "Soporte Ortopédico"
           }
         }
       },
@@ -219,7 +230,8 @@
         "text",
         "variant_picker",
         "buy_buttons",
-        "share"
+        "rating_tgh6LW",
+        "icon_with_text_dAXKUq"
       ],
       "settings": {
         "product": "height-increase-orthopedic-insoles",
