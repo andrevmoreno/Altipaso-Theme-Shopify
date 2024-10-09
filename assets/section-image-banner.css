@@ -493,7 +493,8 @@
   .banner:not(.slideshow) .rte a,
   .banner:not(.slideshow) .inline-richtext a:hover,
   .banner:not(.slideshow) .rte a:hover {
-    color: currentColor;
+    /*color: currentColor;*/
+    color: white!;
   }
 }
 
