@@ -318,6 +318,117 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "page_JLbYRC": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_CfeyWJ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kwGmaR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Realmente las plantillas Increase Insole™ aumentarán mi altura de manera notable?",
+            "icon": "none",
+            "row_content": "<p>¡Absolutamente! Con <strong>Increase Insole™</strong>, puedes ganar hasta 3 pulgadas de altura de manera discreta. Sentirás la diferencia en tu confianza y presencia desde el primer uso.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WLQ4tW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Las plantillas ofrecen comodidad al caminar?",
+            "icon": "none",
+            "row_content": "<p>Sí, las plantillas están hechas con material EVA Premium, que proporciona una excelente absorción de impactos y soporte ortopédico, reduciendo la fatiga del pie y mejorando la postura.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iAnA8j": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Encajan bien en cualquier tipo de zapato?",
+            "icon": "none",
+            "row_content": "<p>Sí, las plantillas son flexibles y se adaptan a cualquier tipo de calzado, ya sean zapatos formales, deportivos o casuales. Manteniendo su forma y proporcionando un ajuste perfecto.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ER63M8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿La gente notará que estoy usando plantillas para aumentar mi altura?",
+            "icon": "none",
+            "row_content": "<p>No, <strong>Increase Insole™</strong> está diseñada para ser totalmente discreta. Nadie lo notará, pero tú sí sentirás la diferencia.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TKjQTY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo ayuda el diseño al arco del pie?",
+            "icon": "none",
+            "row_content": "<p>El diseño ortopédico ofrece soporte para el arco del pie, lo que alivia la incomodidad y mejora la alineación de las articulaciones.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TK9PHb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué beneficios tiene el material EVA en las plantillas?",
+            "icon": "none",
+            "row_content": "<p>El material EVA es resistente a la humedad, flexible, y ofrece una gran amortiguación, lo que asegura comodidad incluso en condiciones húmedas o en deportes de alto impacto.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nBrLaC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿El producto mejorará mi postura?",
+            "icon": "none",
+            "row_content": "<p>Sí, las plantillas están diseñadas para mejorar la alineación del pie y promover una postura correcta, lo que reduce el cansancio y el dolor en las articulaciones.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hqBzjw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " ¿Qué pasa si no me gustan o no funcionan para mí?",
+            "icon": "none",
+            "row_content": "<p>Tu satisfacción es nuestra prioridad. Ofrecemos una política de devolución, si no quedas completamente satisfecho, te devolvemos tu dinero.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kwGmaR",
+        "collapsible_row_WLQ4tW",
+        "collapsible_row_iAnA8j",
+        "collapsible_row_ER63M8",
+        "collapsible_row_TKjQTY",
+        "collapsible_row_TK9PHb",
+        "collapsible_row_nBrLaC",
+        "collapsible_row_hqBzjw"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Respuestas Claras a Tus Preguntas Más Frecuentes</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -328,6 +439,8 @@
     "rich-text",
     "featured-product",
     "rich-text-1",
-    "multicolumn"
+    "multicolumn",
+    "page_JLbYRC",
+    "collapsible_content_CfeyWJ"
   ]
 }
