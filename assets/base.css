@@ -1417,7 +1417,7 @@ shopify-accelerated-checkout-cart {
   display: flex;
   align-items: center;
   /*color: rgb(var(--color-secondary-button));*/
-  color: rgb(var(--color-button-text));
+  color: rgb(var(--color-button));
   margin-left: 0;
   padding-left: 0;
   min-height: 4.4rem;
