@@ -52,18 +52,6 @@
         <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
           <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
 
-            <div class="multirow__text-item">
-              <div class="multirow__content">
-                {%- if block.settings.text -%}
-                  <p>{{ block.settings.text }}</p>
-                {%- endif -%}
-                {%- if block.settings.image != blank -%}
-                  <img src="{{ block.settings.image | image_url: 'medium' }}" alt="block image" width="100%" height="auto"/>
-                {%- endif -%}
-              </div>
-            </div>
-            
-
             <div
               class="image-with-text__media image-with-text__media--{{ section.settings.image_height }} gradient color-{{ section.settings.row_color_scheme }} global-media-settings{% if block.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}"
               {% if section.settings.image_height == 'adapt' and block.settings.image != blank %}
@@ -100,6 +88,17 @@
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
+              <div class="multirow__text-item">
+                <div class="multirow__content">
+                  {%- if block.settings.text -%}
+                    <p>{{ block.settings.text }}</p>
+                  {%- endif -%}
+                  {%- if block.settings.image != blank -%}
+                    <img src="{{ block.settings.image | image_url: 'medium' }}" alt="block image" width="100%" height="auto"/>
+                  {%- endif -%}
+                </div>
+              </div>
+              
               {%- if block.settings.button_label != blank -%}
                 <a
                   {% if block.settings.button_link == blank %}
