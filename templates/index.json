@@ -90,6 +90,40 @@
         "padding_bottom": 36
       }
     },
+    "1728504392efb660e3": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_TCkq3D": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 4,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "1",
+            "reviewerNameColor": "#28352c",
+            "textColor": "#63755f",
+            "itemBackgroundColor": "#f5f5f5",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#c4ff67",
+            "productIds": "height-increase-orthopedic-insoles"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_TCkq3D"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "image_banner_FmhaWn": {
       "type": "image-banner",
       "blocks": {
@@ -341,40 +375,6 @@
         "padding_bottom": 36
       }
     },
-    "1728504392efb660e3": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_card_carousel_section_TCkq3D": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 4,
-            "itemsPerView": 4,
-            "mobileItemsPerView": 1,
-            "maxNumberOfCharacters": 100,
-            "imageRatio": "1",
-            "reviewerNameColor": "#ffffff",
-            "textColor": "#d7d7d7",
-            "itemBackgroundColor": "#63755f",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
-            "shadow": "offset-dark",
-            "border_active": true,
-            "border_width": 2,
-            "border_color": "#c4ff67",
-            "productIds": "height-increase-orthopedic-insoles"
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_card_carousel_section_TCkq3D"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "collapsible_content_CfeyWJ": {
       "type": "collapsible-content",
       "blocks": {
@@ -475,18 +475,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_kcCiw6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WCjMdq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Testimonios de nuestros clientes</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WCjMdq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_with_text_8QtHYb",
     "multirow_phYbkE",
+    "rich_text_kcCiw6",
+    "1728504392efb660e3",
     "image_banner_FmhaWn",
     "image-banner",
     "rich-text",
     "featured-product",
     "rich-text-1",
     "multicolumn",
-    "1728504392efb660e3",
     "collapsible_content_CfeyWJ"
   ]
 }
