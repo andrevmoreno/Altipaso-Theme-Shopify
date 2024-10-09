@@ -90,6 +90,54 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_FmhaWn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_PBWEda": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Descubre el Confort y Soporte que Mereces</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tc3zJe": {
+          "type": "text",
+          "settings": {
+            "text": "La mayoría de las plantillas tradicionales se enfocan únicamente en el aumento de estatura, dejando de lado la comodidad y el soporte ortopédico. Muchas de ellas resultan incómodas, no ofrecen soporte para tus pies y se desgastan rápidamente. Aquí es donde Increase Insole™ marca la diferencia:",
+            "text_style": "body"
+          }
+        },
+        "buttons_JcEUDM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PBWEda",
+        "text_tc3zJe",
+        "buttons_JcEUDM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img-banner_3459aa86-407c-4a99-931a-6a06494d3f5a.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image-banner": {
       "type": "image-banner",
       "settings": {
@@ -138,11 +186,6 @@
             "heading_size": "h1"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -173,7 +216,6 @@
       },
       "block_order": [
         "title",
-        "price",
         "text",
         "variant_picker",
         "buy_buttons",
@@ -281,6 +323,7 @@
   "order": [
     "image_with_text_8QtHYb",
     "multirow_phYbkE",
+    "image_banner_FmhaWn",
     "image-banner",
     "rich-text",
     "featured-product",
