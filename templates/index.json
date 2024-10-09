@@ -64,7 +64,7 @@
           "settings": {
             "image": "shopify://shop_images/couple-and-plantilla.png",
             "caption": "",
-            "heading": "<strong>¿Por qué Increase Insole™ es Perfecto para Ti?</strong>",
+            "heading": "<strong>¿Por qué Altipaso™ es Perfecto para Ti?</strong>",
             "text": "<p><strong>Aumento de Estatura Instantáneo</strong></p><p>Gana hasta 3 pulgadas (7.5 cm) de altura de manera discreta, mejorando tu presencia y confianza al instante. Diseñadas para integrarse perfectamente en cualquier tipo de calzado</p>",
             "button_label": "Quiero comprar Increase Insole™",
             "button_link": ""
@@ -217,7 +217,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>INCREASE INSOLES™ </strong>",
+            "heading": "<strong>ALTIPASO™ </strong>",
             "heading_size": "hxl"
           }
         }
