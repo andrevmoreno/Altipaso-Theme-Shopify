@@ -1465,5 +1465,15 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "type": "text",
+    "id": "additional_text",
+    "label": "Texto adicional"
+  },
+  {
+    "type": "image_picker",
+    "id": "additional_image",
+    "label": "Imagen adicional"
   }
 ]
