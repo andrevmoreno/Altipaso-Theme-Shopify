@@ -491,11 +491,16 @@
     display: flex;
     margin-bottom: 2rem;
     align-items: center;
-    justify-content: right; 
-    flex-direction: column; 
-    text-align: center; 
+    justify-content: right;
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner_bodytext ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+  }
 }
-
 @media screen and (min-width: 750px) {
   .banner--content-align-center .banner__buttons--multiple > * {
     flex-grow: 1;
