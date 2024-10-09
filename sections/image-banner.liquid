@@ -130,6 +130,14 @@
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
             </div>
+            <div class="banner_bodytext">
+              <ul>
+                <li>
+                  <img img src="{{ 'icon-aumento-estatura.svg' | asset_url }}" alt="flecha" width="28px" height="auto"/>
+                  <p>{{ block.settings.text }}</p>
+                  </li>
+                </ul>
+            </div>
           {%- when 'buttons' -%}
             <div
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
