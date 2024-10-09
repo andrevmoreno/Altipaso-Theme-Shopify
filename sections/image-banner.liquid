@@ -134,8 +134,8 @@
               <ul>
                 <li>
                   <img img src="{{ 'icon-aumento-estatura.svg' | asset_url }}" alt="flecha" width="28px" height="auto"/>
-                  <p>{{ block.settings.text }}</p>
-                  </li>
+                  <p>{{ block.settings.description }}</p>                 
+                 </li>
                 </ul>
             </div>
           {%- when 'buttons' -%}
@@ -202,6 +202,12 @@
       "unit": "%",
       "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
       "default": 0
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Descripción",
+      "default": "Ingresa la descripción aquí."
     },
     {
       "type": "select",
