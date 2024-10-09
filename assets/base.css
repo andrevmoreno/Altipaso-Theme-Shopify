@@ -1242,7 +1242,7 @@ button.shopify-payment-button__button--unbranded {
 .customer button:before,
 .shopify-payment-button__button--unbranded:before {
   content: '';
-  display: flex !important;
+  display: flex;
   position: absolute;
   top: 0;
   right: 0;
