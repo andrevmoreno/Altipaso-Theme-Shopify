@@ -463,38 +463,37 @@
   word-break: break-word;
 }
 /* banner_bodytext*/
-.banner_bodytext ul {
-  list-style: none;
-  padding: 0;
-  text-align: right;
-}
-.banner_bodytext li {
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
-  justify-content: flex-start;
-  margin-bottom: 10px;
-}
-
-.banner_bodytext img {
-  vertical-align: small;
-}
-
-.banner_bodytext p {
-  display: inline;
-  margin: 0;
-}
-
-/*mobile*/
 @media screen and (max-width: 749px) {
-  .banner--content-align-mobile-right .banner__buttons--multiple {
-    justify-content: flex-end;
+  .banner_bodytext ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+  }
+  .banner_bodytext li {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    justify-content: flex-start;
+    margin-bottom: 10px;
   }
 
-  .banner--content-align-mobile-center .banner__buttons--multiple > * {
-    flex-grow: 1;
-    min-width: 22rem;
+  .banner_bodytext img {
+    vertical-align: small;
   }
+
+  .banner_bodytext p {
+    display: inline;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 750px) {
+  .banner_bodytext {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: right; 
+    flex-direction: column; 
+    text-align: center; 
 }
 
 @media screen and (min-width: 750px) {
