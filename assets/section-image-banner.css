@@ -8,6 +8,7 @@
 
 .banner__box {
   text-align: center;
+  max-width: 650px !important;
   background-color: transparent !important;
 }
 
