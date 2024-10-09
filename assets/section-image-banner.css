@@ -471,12 +471,13 @@
 .banner_bodytext li {
   display: flex;
   align-items: center;
-  gap: 10px; /* Ajusta el espacio entre el ícono y el texto */
-  justify-content: flex-end;
+  gap: 1.2rem;
+  justify-content: flex-start;
+  margin-bottom: 10px;
 }
 
 .banner_bodytext img {
-  vertical-align: middle;
+  vertical-align: small;
 }
 
 .banner_bodytext p {
