@@ -463,28 +463,26 @@
   word-break: break-word;
 }
 /* banner_bodytext*/
-@media screen and (max-width: 749px) {
-  .banner_bodytext ul {
-    list-style: none;
-    padding: 0;
-    text-align: right;
-  }
-  .banner_bodytext li {
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    justify-content: flex-start;
-    margin-bottom: 10px;
-  }
+.banner_bodytext ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+.banner_bodytext li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
 
-  .banner_bodytext img {
-    vertical-align: small;
-  }
+.banner_bodytext img {
+  vertical-align: small;
+}
 
-  .banner_bodytext p {
-    display: inline;
-    margin: 0;
-  }
+.banner_bodytext p {
+  display: inline;
+  margin: 0;
 }
 
 /*mobile*/
