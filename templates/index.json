@@ -272,7 +272,8 @@
         "column": {
           "type": "column",
           "settings": {
-            "title": "So soft",
+            "image": "shopify://shop_images/icon-ansys_11133d60-dba8-4c6d-b47e-82ae73587776.svg",
+            "title": "",
             "text": "<p>“I really love how soft the leather is. It feels and smells like quality.” – John S.</p>",
             "link_label": "",
             "link": ""
@@ -281,7 +282,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Wicked smart",
+            "image": "shopify://shop_images/icon-cvs_health.svg",
+            "title": "",
             "text": "<p>\"The bag is great. The way it adapts is so clever. I can't live without it.” – Jane K.</p>",
             "link_label": "",
             "link": ""
@@ -290,7 +292,8 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "Elegant",
+            "image": "shopify://shop_images/icon-chegg.svg",
+            "title": "",
             "text": "<p>“Premium quality, as always. I adore the elegant yet simplistic design.” – Anne L.</p>",
             "link_label": "",
             "link": ""
@@ -308,7 +311,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
