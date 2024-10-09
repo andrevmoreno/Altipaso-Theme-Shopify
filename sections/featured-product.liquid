@@ -436,6 +436,7 @@
                   {% render 'icon-with-text', block: block %}
               {%- endcase -%}
             {%- endfor -%}
+            {% comment %}
             <a
               {% if product == blank %}
                 role="link" aria-disabled="true"
@@ -447,6 +448,7 @@
               {{ 'products.product.view_full_details' | t }}
               {{- 'icon-arrow.svg' | inline_asset_content -}}
             </a>
+          {%  endcomment %}
           </section>
         </div>
       </div>
