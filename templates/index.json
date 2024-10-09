@@ -110,10 +110,10 @@
         "buttons_JcEUDM": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -125,7 +125,7 @@
         "buttons_JcEUDM"
       ],
       "settings": {
-        "image": "shopify://shop_images/img-banner.png",
+        "image": "shopify://shop_images/img-banner_3459aa86-407c-4a99-931a-6a06494d3f5a.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-right",
