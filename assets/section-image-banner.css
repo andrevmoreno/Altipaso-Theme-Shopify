@@ -8,7 +8,6 @@
 
 .banner__box {
   text-align: center;
-  background-color: transparent !important;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
@@ -380,7 +379,8 @@
   }
 
   .banner--desktop-transparent .button--secondary {
-    --alpha-button-background: 0;
+    /* --alpha-button-background: 0;*/
+    background-color: transparent !important;
   }
 
   .banner--desktop-transparent .content-container:after {
