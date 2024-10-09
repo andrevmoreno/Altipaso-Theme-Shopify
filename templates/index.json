@@ -90,6 +90,53 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_FmhaWn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_PBWEda": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_tc3zJe": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_JcEUDM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PBWEda",
+        "text_tc3zJe",
+        "buttons_JcEUDM"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image-banner": {
       "type": "image-banner",
       "settings": {
@@ -138,11 +185,6 @@
             "heading_size": "h1"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -173,7 +215,6 @@
       },
       "block_order": [
         "title",
-        "price",
         "text",
         "variant_picker",
         "buy_buttons",
@@ -281,6 +322,7 @@
   "order": [
     "image_with_text_8QtHYb",
     "multirow_phYbkE",
+    "image_banner_FmhaWn",
     "image-banner",
     "rich-text",
     "featured-product",
