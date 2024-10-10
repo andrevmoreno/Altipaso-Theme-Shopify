@@ -10,11 +10,16 @@
                 {{ block.settings.heading }}
               </h2>
             {% endif %}
+            {%- if block.settings.text -%}
+                <div class="benefits-description rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
+              {%- endif -%}
+            {% comment %}
             {% if block.type == 'text' %}
               <p class="benefits-description">
                 {{ block.settings.text }}
               </p>
             {% endif %}
+        {% endcomment %}
             {% if block.type == 'image' %}
               <div class="benefits-image">
                 <img src="{{ block.settings.image | image_url: 'large' }}" alt="{{ block.settings.image.alt }}" width="100%" height="100%"/>
