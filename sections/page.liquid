@@ -15,103 +15,71 @@
     }
   }
 {%- endstyle -%}
-<div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="page-width page-width--narrow section-{{  section.id }}-padding">
-      <div class="grid__item">
-          <h2 class="{{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {%- if section.settings.page.title != blank -%}
-              {{ section.settings.page.title | escape }}
-            {%- else -%}
-              {{ 'sections.page.title' | t }}
-            {%- endif -%}
-          </h2>
-             <div class="rte">
-                <p>{{ section.settings.description }}</p>
 
-                <ul class="icon-list">
-                  {% for block in section.blocks %}
-                      <li>
-                        <img src="{{ block.settings.icon | image_url}}" alt="{{ block.settings.icon_alt }}" width="100%" height="auto">
-                        <span>{{ block.settings.text }}</span>
-                      </li>
-                    {% endfor %}
-                </ul>
-                <p>{{ section.settings.additional_text }}</p>
-             </div>
-      </div>
-      <div class="grid__item">
-        <img src="{{ section.settings.image | image_url: 'large' }}" alt="{{ section.settings.image_alt }}" width="100%" height="auto">
-      </div>
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+  <div class="page-width">
+    <h2 class="section-heading">{{ section.settings.heading }}</h2>
+    <div class="section-text rte">{{ section.settings.text }}</div>
+    <div class="section-image">
+      {% if section.settings.image != blank %}
+        <img src="{{ section.settings.image | image_url: 'medium' }}" alt="section image" width="100%" height="auto"/>
+      {% endif %}
+    </div>
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "Sección personalizada con Íconos e Imagen",
+  "name": "Sección con Imagen, Título y Texto",
+  "class": "section",
   "settings": [
-    {
-      "type": "text",
-      "id": "headline",
-      "label": "Título Principal",
-      "default": "Descubre el Confort y Soporte que Muerces"
-    },
-    {
-      "type": "textarea",
-      "id": "description",
-      "label": "Descripción",
-      "default": "Con este cuidado, tus plantillas te acompañarán durante mucho tiempo, manteniéndose siempre tus pies cómodos y bien protegidos."
-    },
     {
       "type": "image_picker",
       "id": "image",
-      "label": "Imagen Principal"
+      "label": "Subir imagen"
     },
     {
       "type": "text",
-      "id": "image_alt",
-      "label": "Texto alternativo de la Imagen"
+      "id": "heading",
+      "label": "Título",
+      "default": "Escribe el encabezado"
     },
     {
       "type": "textarea",
-      "id": "additional_text",
-      "label": "Texto Adicional",
-      "default": "Más información sobre el cuidado de tus plantillas."
+      "id": "text",
+      "label": "Descripción",
+      "default": "Escribe la descripción"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "Esquema de Color",
+      "label": "Esquema de color",
       "default": "scheme-1"
-    }
-  ],
-  "blocks": [
+    },
     {
-      "type": "icon_with_text",
-      "name": "Ícono con Texto",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Ícono"
-        },
-        {
-          "type": "text",
-          "id": "icon_alt",
-          "label": "Texto alternativo del Ícono"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Texto del Ícono",
-          "default": "Lava las plantillas a mano con agua tibia y jabón suave. No uses lavadora ni secadora."
-        }
-      ]
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding superior",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding inferior",
+      "default": 36
     }
   ],
   "presets": [
     {
-      "name": "Sección con Íconos e Imagen",
-      "category": "Custom"
+      "name": "Sección con Imagen, Título y Texto"
     }
   ]
 }
