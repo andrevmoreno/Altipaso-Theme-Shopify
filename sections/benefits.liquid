@@ -46,7 +46,8 @@
         {% endcomment %}
             {% if block.type == 'image' %}
               <div class="benefits-image">
-                <img src="{{ block.settings.image | image_url: 'large' }}" alt="{{ block.settings.image.alt }}" width="100%" height="100%"/>
+             {% comment %}<img src="{{ block.settings.image | image_url: 'large' }}" alt="{{ block.settings.image.alt }}" width="100%" height="100%"/>{% endcomment %}
+                <img img src="{{ 'comparison-img.png' | asset_url }}" alt="{{ block.settings.image.alt }}" width="100%" height="100%"/>
               </div>
             {% endif %}
           </div>
