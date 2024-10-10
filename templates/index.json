@@ -407,15 +407,25 @@
         "padding_bottom": 48
       }
     },
+    "page_r36AzW": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_CfeyWJ": {
       "type": "collapsible-content",
       "blocks": {
         "collapsible_row_kwGmaR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Realmente las plantillas Increase Insole™ aumentarán mi altura de manera notable?",
+            "heading": "¿Realmente las plantillas ALTIPASO™ aumentarán mi altura de manera notable?",
             "icon": "none",
-            "row_content": "<p>¡Absolutamente! Con <strong>Increase Insole™</strong>, puedes ganar hasta 3 pulgadas de altura de manera discreta. Sentirás la diferencia en tu confianza y presencia desde el primer uso.</p>",
+            "row_content": "<p>¡Absolutamente! Con <strong>ALTIPASO™</strong>, puedes ganar hasta 3 pulgadas de altura de manera discreta. Sentirás la diferencia en tu confianza y presencia desde el primer uso.</p>",
             "page": ""
           }
         },
@@ -520,6 +530,7 @@
     "featured-product",
     "rich-text-1",
     "multicolumn",
+    "page_r36AzW",
     "collapsible_content_CfeyWJ"
   ]
 }
