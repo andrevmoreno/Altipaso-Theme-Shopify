@@ -407,6 +407,40 @@
         "padding_bottom": 48
       }
     },
+    "benefits_aD3XME": {
+      "type": "benefits",
+      "blocks": {
+        "heading_a93bLD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Descubre el Confort y Soporte que Mereces",
+            "heading_size": "h1"
+          }
+        },
+        "image_Rb4hmG": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "text_z8MtDE": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Las mujeres eligen su look, los hombres eligen nuestras plantillas Increase Insole™.</li><li>Estar en el rango de 5'11\" o 6' te brinda una ventaja que puede transformar tu confianza.</li><li>Con nuestras plantillas, proyecta una presencia más fuerte en cada situación.</li><li>En tu vida personal o profesional, Increase Insole™ te da la altura para destacar y sentirte seguro.</li></ul><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a93bLD",
+        "image_Rb4hmG",
+        "text_z8MtDE"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 54,
+        "padding_bottom": 53
+      }
+    },
     "collapsible_content_CfeyWJ": {
       "type": "collapsible-content",
       "blocks": {
@@ -520,6 +554,7 @@
     "featured-product",
     "rich-text-1",
     "multicolumn",
+    "benefits_aD3XME",
     "collapsible_content_CfeyWJ"
   ]
 }
