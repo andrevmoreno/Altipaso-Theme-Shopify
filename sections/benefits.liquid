@@ -13,22 +13,15 @@
               </h2>
             {% endif %}
 
-            {%- for block in section.blocks -%}
-                {% case block.type %}
-                  {%- when 'text' -%}
-                    <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                      {{ block.settings.text }}
-                    </div>
-                {%- endcase -%}
-              {%- endfor -%}
+            {% case block.type %}
+                {%- when 'text' -%}
+                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                    {{ block.settings.text }}
+                  </div>
 
-            {% comment %}
-            {% if block.type == 'text' %}
-              <p class="benefits-description">
-                {{ block.settings.text }}
-              </p>
-            {% endif %}
-        {% endcomment %}
+                {%- endcase -%}
+              
+
             {% if block.type == 'image' %}
               <div class="benefits-image">
              {% comment %}<img src="{{ block.settings.image | image_url: 'large' }}" alt="{{ block.settings.image.alt }}" width="100%" height="100%"/>{% endcomment %}
