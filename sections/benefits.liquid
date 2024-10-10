@@ -1,4 +1,6 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
 <div class="benefits-section color-{{ section.settings.color_scheme }} gradient">
     <div class="page-width page-width--narrow section-{{ section.id }}-padding">
@@ -10,9 +12,31 @@
                 {{ block.settings.heading }}
               </h2>
             {% endif %}
-            {%- if block.settings.text -%}
-                <div class="benefits-description rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
-              {%- endif -%}
+
+            <div class="benefits-description">
+                {%- if block.settings.title != blank -%}
+                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="rte">{{ block.settings.text }}</div>
+                {%- endif -%}
+                {%- if block.settings.link_label != blank -%}
+                  <a
+                    class="link animate-arrow"
+                    {% if block.settings.link == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.link }}"
+                    {% endif %}
+                  >
+                    {{- block.settings.link_label | escape -}}
+                    <span class="svg-wrapper"
+                      ><span class="icon-wrap">&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span></span
+                    >
+                  </a>
+                {%- endif -%}
+              </div>
+
             {% comment %}
             {% if block.type == 'text' %}
               <p class="benefits-description">
@@ -88,13 +112,14 @@
       "name": "Descripción",
       "settings": [
         {
-          "type": "textarea",
-          "id": "text",
-          "label": "Texto de la Descripción",
-          "default": "Con este cuidado, tus plantillas te acompañarán durante mucho tiempo, manteniéndote siempre cómodo."
+            "type": "inline_richtext",
+            "id": "title",
+            "default": "t:sections.multicolumn.blocks.column.settings.title.default",
+            "label": "t:sections.multicolumn.blocks.column.settings.title.label"
         }
       ]
     },
+    
     {
       "type": "image",
       "name": "Imagen",
