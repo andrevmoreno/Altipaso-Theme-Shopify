@@ -1,83 +1,110 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
-<section class="benefits-section section-{{ section.id }}-padding">
-    <div class="page-width">
-        <div>
-            <!-- Headline-->
-            <h2>
-                {{ section.settings.heading }}
-             </h2>
-
-             <!-- Description -->
-             <p class="benefits-description">
-                {{ section.settings.description }}
-             </p>
-
-             <!-- Image -->
-             <div class="benefits-image">
-                <img src="{{  section.settings.comparison_image | image_url: 'large' }}" alt="image_height" width="100%" height="auto"/>
-             </div>
-
-             <ul class="benefits-list">
-                {%- for block in section.blocks -%}
-                  <li class="benefits-item">
-                    <div class="icon">
-                      <img src="{{ block.settings.icon | image_url: 'small' }}" alt="Icono Beneficio"width="100%" height="100%" />
-                    </div>
-                    <div class="text">
-                      <p>{{ block.settings.text }}</p>
-                    </div>
-                  </li>
-                {%- endfor -%}
-              </ul>
-              
-         </div>
+<div class="benefits-section color-{{ section.settings.color_scheme }} gradient">
+    <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+      <div class="benefits-content">
+        {%- for block in section.blocks -%}
+          <div class="benefit-item">
+            {% if block.type == 'heading' %}
+              <h2 class="benefits-title {{ block.settings.heading_size }}">
+                {{ block.settings.heading }}
+              </h2>
+            {% endif %}
+            {% if block.type == 'text' %}
+              <p class="benefits-description">
+                {{ block.settings.text }}
+              </p>
+            {% endif %}
+            {% if block.type == 'image' %}
+              <div class="benefits-image">
+                <img src="{{ block.settings.image | image_url: 'large' }}" alt="{{ block.settings.image.alt }}" width="100%" height="100%"/>
+              </div>
+            {% endif %}
+          </div>
+        {%- endfor -%}
+      </div>
     </div>
-</section>
-
+  </div>
 {% schema %}
 {
-  "name": "Beneficios",
+  "name": "Benefits",
   "settings": [
     {
-      "type": "text",
-      "id": "heading",
-      "label": "Título",
-      "default": "Descubre el Confort y Soporte que Mereces"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
     },
     {
-      "type": "textarea",
-      "id": "description",
-      "label": "Descripción",
-      "default": "Con este cuidado, tus plantillas te acompañarán durante mucho tiempo..."
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Superior",
+      "min": 0,
+      "max": 100,
+      "default": 36,
+      "unit": "px"
     },
     {
-      "type": "image_picker",
-      "id": "comparison_image",
-      "label": "Imagen de Comparación"
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Inferior",
+      "min": 0,
+      "max": 100,
+      "default": 36,
+      "unit": "px"
     }
   ],
   "blocks": [
     {
-      "type": "benefit",
-      "name": "Beneficio",
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Texto del Encabezado",
+          "default": "Descubre el Confort y Soporte que Mereces"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "label": "Tamaño del Encabezado",
+          "default": "h2",
+          "options": [
+            { "value": "h1", "label": "H1" },
+            { "value": "h2", "label": "H2" },
+            { "value": "h3", "label": "H3" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Descripción",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Texto de la Descripción",
+          "default": "Con este cuidado, tus plantillas te acompañarán durante mucho tiempo, manteniéndote siempre cómodo."
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Imagen",
       "settings": [
         {
           "type": "image_picker",
-          "id": "icon",
-          "label": "Icono del Beneficio"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Texto del Beneficio"
+          "id": "image",
+          "label": "Selecciona una Imagen"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Beneficios",
+      "name": "Sección de Beneficios",
       "category": "Custom"
     }
   ]
