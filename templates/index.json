@@ -15,7 +15,7 @@
         "heading_T9ndcR": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Di ADIÓS a la baja estatura, con Increase Insole™ añade la ALTURA y CONFIANZA que mereces</strong>",
+            "heading": "<strong>Di ADIÓS a la baja estatura, con Altipaso™ añade la ALTURA y CONFIANZA que mereces</strong>",
             "heading_size": "h1"
           }
         },
@@ -33,12 +33,21 @@
             "button_link": "shopify://collections/frontpage",
             "button_style_secondary": false
           }
+        },
+        "caption_tQanLj": {
+          "type": "caption",
+          "settings": {
+            "caption": "+ 3,000 Compradores Felices",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading_T9ndcR",
         "text_qwbi6E",
-        "button_8jfBhV"
+        "button_8jfBhV",
+        "caption_tQanLj"
       ],
       "settings": {
         "image": "shopify://shop_images/woman-guy.png",
@@ -64,8 +73,8 @@
           "settings": {
             "image": "shopify://shop_images/couple-and-plantilla.png",
             "caption": "",
-            "heading": "<strong>¿Por qué Increase Insole™ es Perfecto para Ti?</strong>",
-            "text": "<p><strong>Aumento de Estatura Instantáneo</strong></p>",
+            "heading": "<strong>¿Por qué Altipaso™ es Perfecto para Ti?</strong>",
+            "text": "<p><strong>Aumento de Estatura Instantáneo</strong></p><p>Gana hasta 3 pulgadas (7.5 cm) de altura de manera discreta, mejorando tu presencia y confianza al instante. Diseñadas para integrarse perfectamente en cualquier tipo de calzado</p>",
             "button_label": "Quiero comprar Increase Insole™",
             "button_link": ""
           }
@@ -88,6 +97,63 @@
         "mobile_content_alignment": "left",
         "padding_top": 48,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_kcCiw6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WCjMdq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Testimonios de nuestros clientes</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WCjMdq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1728504392efb660e3": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_TCkq3D": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 4,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "1",
+            "reviewerNameColor": "#28352c",
+            "textColor": "#63755f",
+            "itemBackgroundColor": "#f5f5f5",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#c4ff67",
+            "productIds": "height-increase-orthopedic-insoles"
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_TCkq3D"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image_banner_FmhaWn": {
@@ -160,7 +226,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>INCREASE INSOLES™ </strong>",
+            "heading": "<strong>ALTIPASO™ </strong>",
             "heading_size": "hxl"
           }
         }
@@ -248,7 +314,7 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "hide_variants": false,
         "enable_video_looping": true,
         "padding_top": 32,
@@ -291,7 +357,7 @@
         "column": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon-ansys_11133d60-dba8-4c6d-b47e-82ae73587776.svg",
+            "image": "shopify://shop_images/icon-ansys_249ead70-5fa7-4440-a887-a35e27089b8c.svg",
             "title": "",
             "text": "<p>“I really love how soft the leather is. It feels and smells like quality.” – John S.</p>",
             "link_label": "",
@@ -301,7 +367,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon-cvs_health.svg",
+            "image": "shopify://shop_images/icon-cvs_health_e731705b-c91c-49db-abe8-d285b87d27a1.svg",
             "title": "",
             "text": "<p>\"The bag is great. The way it adapts is so clever. I can't live without it.” – Jane K.</p>",
             "link_label": "",
@@ -311,7 +377,7 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/icon-chegg.svg",
+            "image": "shopify://shop_images/icon-chegg_c7ef37b6-f5be-46bb-8562-343e024584a9.svg",
             "title": "",
             "text": "<p>“Premium quality, as always. I adore the elegant yet simplistic design.” – Anne L.</p>",
             "link_label": "",
@@ -338,17 +404,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "page_JLbYRC": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 48
       }
     },
     "collapsible_content_CfeyWJ": {
@@ -357,9 +413,9 @@
         "collapsible_row_kwGmaR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Realmente las plantillas Increase Insole™ aumentarán mi altura de manera notable?",
+            "heading": "¿Realmente las plantillas ALTIPASO™ aumentarán mi altura de manera notable?",
             "icon": "none",
-            "row_content": "<p>¡Absolutamente! Con <strong>Increase Insole™</strong>, puedes ganar hasta 3 pulgadas de altura de manera discreta. Sentirás la diferencia en tu confianza y presencia desde el primer uso.</p>",
+            "row_content": "<p>¡Absolutamente! Con <strong>ALTIPASO™</strong>, puedes ganar hasta 3 pulgadas de altura de manera discreta. Sentirás la diferencia en tu confianza y presencia desde el primer uso.</p>",
             "page": ""
           }
         },
@@ -456,13 +512,14 @@
   "order": [
     "image_with_text_8QtHYb",
     "multirow_phYbkE",
+    "rich_text_kcCiw6",
+    "1728504392efb660e3",
     "image_banner_FmhaWn",
     "image-banner",
     "rich-text",
     "featured-product",
     "rich-text-1",
     "multicolumn",
-    "page_JLbYRC",
     "collapsible_content_CfeyWJ"
   ]
 }
