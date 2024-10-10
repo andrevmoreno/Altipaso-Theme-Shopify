@@ -1467,13 +1467,14 @@
     ]
   },
   {
-    "type": "text",
-    "id": "additional_text",
-    "label": "Texto adicional"
-  },
-  {
-    "type": "image_picker",
-    "id": "additional_image",
-    "label": "Imagen adicional"
+    "name": "Theme settings",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_benefits_section",
+        "label": "Mostrar sección de beneficios",
+        "default": true
+      }
+    ]
   }
 ]

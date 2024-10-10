@@ -1,0 +1,85 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+<section class="benefits-section section-{{ section.id }}-padding">
+    <div class="page-width">
+        <div>
+            <!-- Headline-->
+            <h2>
+                {{ section.settings.heading }}
+             </h2>
+
+             <!-- Description -->
+             <p class="benefits-description">
+                {{ section.settings.description }}
+             </p>
+
+             <!-- Image -->
+             <div class="benefits-image">
+                <img src="{{  section.settings.comparison_image | image_url: 'large' }}" alt="image_height" width="100%" height="auto"/>
+             </div>
+
+             <ul class="benefits-list">
+                {%- for block in section.blocks -%}
+                  <li class="benefits-item">
+                    <div class="icon">
+                      <img src="{{ block.settings.icon | image_url: 'small' }}" alt="Icono Beneficio"width="100%" height="100%" />
+                    </div>
+                    <div class="text">
+                      <p>{{ block.settings.text }}</p>
+                    </div>
+                  </li>
+                {%- endfor -%}
+              </ul>
+              
+         </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Beneficios",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Título",
+      "default": "Descubre el Confort y Soporte que Mereces"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Descripción",
+      "default": "Con este cuidado, tus plantillas te acompañarán durante mucho tiempo..."
+    },
+    {
+      "type": "image_picker",
+      "id": "comparison_image",
+      "label": "Imagen de Comparación"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Beneficio",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icono del Beneficio"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texto del Beneficio"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Beneficios",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
