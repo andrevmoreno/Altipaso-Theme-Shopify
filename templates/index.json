@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_with_text_8QtHYb": {
@@ -74,8 +74,8 @@
             "image": "shopify://shop_images/couple-and-plantilla.png",
             "caption": "",
             "heading": "<strong>¿Por qué Altipaso™ es Perfecto para Ti?</strong>",
-            "text": "<p><strong>Aumento de Estatura Instantáneo</strong></p><p>Gana hasta 3 pulgadas (7.5 cm) de altura de manera discreta, mejorando tu presencia y confianza al instante. Diseñadas para integrarse perfectamente en cualquier tipo de calzado</p>",
-            "button_label": "Quiero comprar Increase Insole™",
+            "text": "<ul><li><strong>Aumento de Estatura Instantáneo</strong></li></ul><p>Gana hasta 3 pulgadas (7.5 cm) de altura de manera discreta, mejorando tu presencia y confianza al instante. Diseñadas para integrarse perfectamente en cualquier tipo de calzado</p><p></p><ul><li><strong>Soporte Ortopédico Garantizado</strong></li></ul><p>El diseño ortopédico de Increase Insole™ alivia la presión en tus articulaciones, mejora tu postura y te brinda mayor comodidad durante todo el día, protegiendo tus pies y piernas</p><ul><li><strong>Comodidad para Todo el Día</strong></li></ul><p>Fabricadas con materiales premium y transpirables, nuestras plantillas proporcionan una sensación de confort continuo, manteniendo tus pies frescos y cómodos en cualquier situación</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -413,7 +413,7 @@
         "heading_a93bLD": {
           "type": "heading",
           "settings": {
-            "heading": "ALTIPASO™ te ofrece una solución discreta que te ayuda a ganar esos valiosos centímetros de altura que necesitas para proyectar más confianza y seguridad en tu día a día",
+            "heading": "ALTIPASO™te ayuda a ganar esos valiosos centímetros de altura",
             "heading_size": "h1"
           }
         },
@@ -538,8 +538,66 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 100
+      }
+    },
+    "rich_text_gmpaqa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PnYckW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Testimonios de nuestros clientes</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "button_fjy3Aw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PnYckW",
+        "button_fjy3Aw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "1728660510ff3999a7": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_AiTtXy": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": true,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_AiTtXy"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -555,6 +613,8 @@
     "rich-text-1",
     "multicolumn",
     "benefits_aD3XME",
-    "collapsible_content_CfeyWJ"
+    "collapsible_content_CfeyWJ",
+    "rich_text_gmpaqa",
+    "1728660510ff3999a7"
   ]
 }
