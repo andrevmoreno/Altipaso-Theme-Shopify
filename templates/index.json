@@ -128,9 +128,9 @@
         "loox_reviews_loox_card_carousel_section_TCkq3D": {
           "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "maxWidth": 1530,
+            "maxWidth": 1100,
             "borderRadius": 4,
-            "itemsPerView": 5,
+            "itemsPerView": 4,
             "mobileItemsPerView": 1,
             "maxNumberOfCharacters": 100,
             "imageRatio": "1",
@@ -541,6 +541,64 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_gmpaqa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PnYckW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Testimonios de nuestros clientes</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "button_fjy3Aw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PnYckW",
+        "button_fjy3Aw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "1728660510ff3999a7": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_AiTtXy": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": true,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_AiTtXy"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -555,6 +613,8 @@
     "rich-text-1",
     "multicolumn",
     "benefits_aD3XME",
-    "collapsible_content_CfeyWJ"
+    "collapsible_content_CfeyWJ",
+    "rich_text_gmpaqa",
+    "1728660510ff3999a7"
   ]
 }
