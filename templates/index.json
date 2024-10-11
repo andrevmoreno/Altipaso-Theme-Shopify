@@ -359,7 +359,7 @@
           "settings": {
             "image": "shopify://shop_images/icon-ansys_249ead70-5fa7-4440-a887-a35e27089b8c.svg",
             "title": "",
-            "text": "<p>“I really love how soft the leather is. It feels and smells like quality.” – John S.</p>",
+            "text": "<p>\"Las plantillas son increíblemente cómodas. Mis pies no se cansan durante el día\"- <strong>Jhon S</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -369,7 +369,7 @@
           "settings": {
             "image": "shopify://shop_images/icon-cvs_health_e731705b-c91c-49db-abe8-d285b87d27a1.svg",
             "title": "",
-            "text": "<p>\"The bag is great. The way it adapts is so clever. I can't live without it.” – Jane K.</p>",
+            "text": "<p>“El soporte es fantástico. El material se siente suave en mis pies y no se deslizan”<strong>- Pedro M.</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -379,7 +379,7 @@
           "settings": {
             "image": "shopify://shop_images/icon-chegg_c7ef37b6-f5be-46bb-8562-343e024584a9.svg",
             "title": "",
-            "text": "<p>“Premium quality, as always. I adore the elegant yet simplistic design.” – Anne L.</p>",
+            "text": "<p>“La calidad es excelente. Las plantillas no se notan y son cómodas para todo el día” <strong>- Francisco P.</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -413,7 +413,7 @@
         "heading_a93bLD": {
           "type": "heading",
           "settings": {
-            "heading": "ALTIPASO™te ayuda a ganar esos valiosos centímetros de altura",
+            "heading": "Gana altura al instante y proyecta confianza con ALTIPASO™ sin que nadie lo note",
             "heading_size": "h1"
           }
         },
@@ -425,7 +425,7 @@
         "text_z8MtDE": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Las mujeres eligen su look, los hombres eligen nuestras plantillas Increase Insole™.</li><li>Estar en el rango de 5'11\" o 6' te brinda una ventaja que puede transformar tu confianza.</li><li>Con nuestras plantillas, proyecta una presencia más fuerte en cada situación.</li><li>En tu vida personal o profesional, Increase Insole™ te da la altura para destacar y sentirte seguro.</li></ul><p></p>",
+            "text": "<ul><li>Las mujeres eligen su look, los hombres eligen nuestras plantillas<strong>ALTIPASO™</strong>.</li><li>Estar en el rango de 5'11\" o 6' te brinda una ventaja que puede transformar tu confianza.</li><li>Con nuestras plantillas, proyecta una presencia más fuerte en cada situación.</li><li>En tu vida personal o profesional,<strong>ALTIPASO™</strong>te da la altura para destacar y sentirte seguro.</li></ul>",
             "text_style": "body"
           }
         }
@@ -476,7 +476,7 @@
           "settings": {
             "heading": "¿La gente notará que estoy usando plantillas para aumentar mi altura?",
             "icon": "none",
-            "row_content": "<p>No, <strong>Increase Insole™</strong> está diseñada para ser totalmente discreta. Nadie lo notará, pero tú sí sentirás la diferencia.</p>",
+            "row_content": "<p>No,<strong>ALTIPASO™</strong>está diseñada para ser totalmente discreta. Nadie lo notará, pero tú sí sentirás la diferencia.</p>",
             "page": ""
           }
         },
