@@ -15,7 +15,7 @@
         "heading_T9ndcR": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Di ADIÓS a la baja estatura, con Altipaso™ añade la</strong><strong> ALTURA y CONFIANZA</strong><strong> que mereces</strong>",
+            "heading": "<strong>Di ADIÓS a la baja estatura, con Altipaso™ añade la ALTURA y CONFIANZA que mereces</strong>",
             "heading_size": "h1"
           }
         },
@@ -74,7 +74,7 @@
             "image": "shopify://shop_images/couple-and-plantilla.png",
             "caption": "",
             "heading": "<strong>¿Por qué Altipaso™ es Perfecto para Ti?</strong>",
-            "text": "<ul><li><strong>Aumento de Estatura Instantáneo</strong></li></ul><p>Gana hasta 3 pulgadas (7.5 cm) de altura de manera discreta, mejorando tu presencia y confianza al instante. Diseñadas para integrarse perfectamente en cualquier tipo de calzado</p><p></p><ul><li><strong>Soporte Ortopédico Garantizado</strong></li></ul><p>El diseño ortopédico de<strong>ALTIPASO™</strong>alivia la presión en tus articulaciones, mejora tu postura y te brinda mayor comodidad durante todo el día, protegiendo tus pies y piernas.</p><ul><li><strong>Materiales Premium</strong></li></ul><p>Fabricadas con materiales premium y transpirables, usados en calzado para correr nuestras plantillas proporcionan una sensación de confort continuo, manteniendo tus pies frescos y cómodos en cualquier situación.</p>",
+            "text": "<ul><li><strong>Aumento de Estatura Instantáneo</strong></li></ul><p>Gana hasta 3 pulgadas de altura de manera discreta, mejorando tu presencia y confianza al instante.<br/>Diseñadas para integrarse perfectamente en cualquier tipo de calzado.</p><p></p><ul><li><strong>Soporte Ortopédico Garantizado</strong></li></ul><p>El diseño ortopédico de <strong>ALTIPASO™</strong>alivia la presión en tus articulaciones, mejora tu postura y te brinda mayor comodidad durante todo el día, protegiendo tus pies y piernas.</p><ul><li><strong>Materiales Premium</strong></li></ul><p>Fabricadas con materiales premium y transpirables, usados en calzado para correr nuestras plantillas proporcionan una sensación de confort continuo, manteniendo tus pies frescos y cómodos en cualquier situación.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -425,7 +425,7 @@
         "text_z8MtDE": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Las mujeres eligen su look, los hombres eligen nuestras plantillas <strong>ALTIPASO™</strong>.</li><li>Estar en el rango de 5'11\" o 6' te brinda una ventaja que puede transformar tu confianza.</li><li>Con nuestras plantillas, proyecta una presencia más fuerte en cada situación.</li><li>En tu vida personal o profesional, <strong>ALTIPASO™</strong>te da la altura para destacar y sentirte seguro.</li></ul>",
+            "text": "<ul><li>Las mujeres eligen su look, los hombres eligen nuestras plantillas <strong>ALTIPASO™</strong>.</li><li>Estar en el rango de 5'11\" o 6' te brinda una ventaja que puede transformar tu confianza.</li><li>Con nuestras plantillas, proyecta una presencia más fuerte en cada situación.</li><li>En tu vida personal o profesional, <strong>ALTIPASO™</strong>te da la altura para destacar y sentirte seguro.</li></ul><p></p><p></p><p></p>",
             "text_style": "body"
           }
         }
@@ -438,7 +438,7 @@
       "settings": {
         "color_scheme": "",
         "padding_top": 54,
-        "padding_bottom": 53
+        "padding_bottom": 63
       }
     },
     "collapsible_content_CfeyWJ": {
