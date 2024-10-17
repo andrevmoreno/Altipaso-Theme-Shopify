@@ -491,18 +491,18 @@
     display: flex;
     margin-bottom: 2rem;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
     flex-direction: column;
     text-align: center;
   }
   .banner_bodytext ul {
     list-style: none;
     padding: 0;
-    text-align: right;
+    text-align: left;
   }
   .banner_bodytext li {
     display: flex;
-    align-items: right;
+    align-items: left;
     gap: 1.2rem;
     justify-content: flex-start;
     margin-bottom: 10px;
